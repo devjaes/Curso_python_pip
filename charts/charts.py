@@ -8,3 +8,4 @@ def generate_pychart():
     fig, ax = plt.subplots()
     ax.pie(values, labels=labels)
     plt.savefig('pie.png')
+    plt.close()
