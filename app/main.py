@@ -15,7 +15,7 @@ def run():
         charts.generate_bar_chart(name_country, labels, values)
     labels, values = read_csv.get_world_percentages(data)
 
-    charts.generate_pie_chart(name_country, labels, values)
+    #charts.generate_pie_chart(name_country, labels, values)
 
 
 if __name__ == '__main__':
